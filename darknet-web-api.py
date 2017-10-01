@@ -18,8 +18,8 @@ class StoreHandler(BaseHTTPRequestHandler):
         data = form['file'].file.read()
         open("/tmp/%s"%filename, "wb").write(data)
         copyfile("/tmp/" + filename, "uploads/" + filename)
-        os.system("./darknet detect cfg/yolo.cfg  yolo.weights uploads/"+ filename +" > salida.txt")
-        salida_yolo = open("salida.txt","r")
+        os.system("./darknet detect cfg/yolo.cfg  yolo.weights uploads/"+ filename +" > salida-"+ filename +".txt")
+        salida_yolo = open("salida-"+ filename +".txt","r")
         salida_yolo = salida_yolo.read()
         #Tempo
         if salida_yolo == "":
