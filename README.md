@@ -29,7 +29,7 @@ Para este procedimiento, hay que tener instalado [<a  target="_blank" href="http
 
 1. <code>git clone https://github.com/pjreddie/darknet.git</code>
 2. <code>cd darknet</code>
-3. Modificar el archivo Makefilem y en la primer linea poner <b>GPU=1</b>
+3. Modificar el archivo Makefile y en la primer linea poner <b>GPU=1</b>
 4. <code>make -j numero_de_cores_+_1</code> <b>ej: (make -j 7 para un pc con 6 cores)</b>
 
 ### Compilación de darknet en Windows
