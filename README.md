@@ -16,8 +16,8 @@ a continuación
 <code>curl -X POST -F file=@archivo.jpg http://localhost:8085</code>
 
 # Repositorio de darknet
-Proyecto original: [<a href="https://github.com/pjreddie/darknet">Darknet</a>] <b>-</b> 
-Port de windows: [<a href="https://github.com/AlexeyAB/darknet">Darknet</a>]
+Proyecto original: [<a target="_blank" href="https://github.com/pjreddie/darknet">Darknet</a>] <b>-</b> 
+Port de windows: [<a target="_blank"  href="https://github.com/AlexeyAB/darknet">Darknet</a>]
 
 ### Compilación de darknet en GNU/Linux - CPU
 1. <code>git clone https://github.com/pjreddie/darknet.git</code>
@@ -25,7 +25,7 @@ Port de windows: [<a href="https://github.com/AlexeyAB/darknet">Darknet</a>]
 3. <code>make</code>
 
 ### Compilación de darknet en GNU/Linux - GPU
-Para este procedimiento, hay que tener instalado [<a href="https://developer.nvidia.com/cuda-downloads">CUDA</a>].
+Para este procedimiento, hay que tener instalado [<a  target="_blank" href="https://developer.nvidia.com/cuda-downloads">CUDA</a>].
 
 1. <code>git clone https://github.com/pjreddie/darknet.git</code>
 2. <code>cd darknet</code>
@@ -33,5 +33,5 @@ Para este procedimiento, hay que tener instalado [<a href="https://developer.nvi
 4. <code>make</code>
 
 ### Compilación de darknet en Windows
-1. Guia del port [<a href="https://github.com/AlexeyAB/darknet#how-to-compile-on-windows">aquí</a>]
+1. Guia del port [<a  target="_blank" href="https://github.com/AlexeyAB/darknet#how-to-compile-on-windows">aquí</a>]
 
