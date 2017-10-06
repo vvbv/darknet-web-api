@@ -16,15 +16,15 @@ a continuación
 <code>curl -X POST -F file=@archivo.jpg http://localhost:8085</code>
 
 # Repositorio de darknet
-Proyecto original: [<a href="https://github.com/pjreddie/darknet">Darknet</a>]
+Proyecto original: [<a href="https://github.com/pjreddie/darknet">Darknet</a>] <b>-</b> 
 Port de windows: [<a href="https://github.com/AlexeyAB/darknet">Darknet</a>]
 
-### Compilación en GNU/Linux - CPU
+### Compilación de darknet en GNU/Linux - CPU
 1. <code>git clone https://github.com/pjreddie/darknet.git</code>
 2. <code>cd darknet</code>
 3. <code>make</code>
 
-### Compilación en GNU/Linux - GPU
+### Compilación de darknet en GNU/Linux - GPU
 Para este procedimiento, hay que tener instalado [<a href="https://developer.nvidia.com/cuda-downloads">CUDA</a>].
 
 1. <code>git clone https://github.com/pjreddie/darknet.git</code>
@@ -32,5 +32,6 @@ Para este procedimiento, hay que tener instalado [<a href="https://developer.nvi
 3. Modificar el archivo Makefilem y en la primer linea poner <b>GPU=1</b>
 4. <code>make</code>
 
-### Compilación en Windows
+### Compilación de darknet en Windows
 1. Guia del port [<a href="https://github.com/AlexeyAB/darknet#how-to-compile-on-windows">aquí</a>]
+
