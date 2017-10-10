@@ -8,11 +8,11 @@ Api REST para el uso de darknet en reconocimiento de imágenes desde otras aplic
 2. Correr darknet-web-api.py (Por defecto el puerto es 8085).
 
 ## Ejemplos
-<code>python darknet-web-api.py 8080  
-Corriendo en 127.0.0.1:8080</code> 
+<code>python darknet-web-api.py 8080</code>  
+<code>Corriendo en 127.0.0.1:8080</code>  
 
-<code>python darknet-web-api.py  
-Corriendo en 127.0.0.1:8085</code> 
+<code>python darknet-web-api.py</code>  
+<code>Corriendo en 127.0.0.1:8085</code>  
 
 # Prueba
 
