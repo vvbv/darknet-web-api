@@ -41,7 +41,8 @@ class StoreHandler(BaseHTTPRequestHandler):
             tiempo = salida_yolo[posPredicted:endPredicted - 1]
             predicciones_tmp = salida_yolo[endPredicted + 8:len(salida_yolo)]
             predicciones_tmp = predicciones_tmp.replace(": ",":")
-            predicciones_tmp = predicciones_tmp.replace("%","")
+            predicciones_tmp = predicciones_tmp.replace(" ","-")
+            predicciones_tmp = predicciones_tmp.replace("%"," ")
             predicciones = predicciones_tmp.split()
             predicciones_formateadas = dict()
             contador = 0
