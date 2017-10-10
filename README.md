@@ -7,6 +7,13 @@ Api REST para el uso de darknet en reconocimiento de imágenes desde otras aplic
 1. Ubicar darknet-web-api.py en la misma carpeta de darknet.
 2. Correr darknet-web-api.py (Por defecto el puerto es 8085).
 
+## Ejemplos
+<code>python darknet-web-api.py 8080<br>
+Corriendo en 127.0.0.1:8080</code> 
+
+<code>python darknet-web-api.py<br>
+Corriendo en 127.0.0.1:8085</code> 
+
 # Prueba
 
 Se puede abrir en el navegador la dirección http://localhost:8085
@@ -14,6 +21,8 @@ y hacer la prueba asistida, o se puede usar curl como se muestra
 a continuación
 
 <code>curl -X POST -F file=@archivo.jpg http://localhost:8085</code>
+
+Las predicciones junto con las salidas, quedan almacenadas en la carpeta de predicciones.
 
 # Repositorio de darknet
 Proyecto original: [<a target="_blank" href="https://github.com/pjreddie/darknet">Darknet</a>] <b>-</b> 
