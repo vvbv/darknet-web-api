@@ -1,4 +1,4 @@
-# Darknet Web Api
+# Darknet Web API
 Api REST para el uso de darknet en reconocimiento de imágenes desde otras aplicaciones. Esta api retorna un JSON como respuesta, con las posibilidades y su porcentaje de probabilidad de los objetos que hay en la imagen.
 
 <b> Testeado en GNU/Linux Debian 8.5 con python 2.7</b>
@@ -8,10 +8,10 @@ Api REST para el uso de darknet en reconocimiento de imágenes desde otras aplic
 2. Correr darknet-web-api.py (Por defecto el puerto es 8085).
 
 ## Ejemplos
-<code>python darknet-web-api.py 8080<br>
+<code>python darknet-web-api.py 8080  
 Corriendo en 127.0.0.1:8080</code> 
 
-<code>python darknet-web-api.py<br>
+<code>python darknet-web-api.py  
 Corriendo en 127.0.0.1:8085</code> 
 
 # Prueba
